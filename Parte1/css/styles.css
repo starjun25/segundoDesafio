@@ -1,0 +1,8 @@
+img {
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+img.clicked {
+    border: 3px solid red;
+}

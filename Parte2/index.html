@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>parte2</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>¿Cuántos stickers quieres?</h1>
+    <div class="contenedor-stickers">
+      <div>
+        <img src="./img/ai-generated-7796158_1280.png" alt="Sticker AI" />
+        <label for="img1">perrito:</label>
+        <input type="number" id="img1" name="img1" min="0" max="10" value="0" />
+      </div>
+      <div>
+        <img src="./img/skeleton-1456627_1280 (2).png" alt="Sticker Skeleton" />
+        <label for="img2">Esqueleto:</label>
+        <input type="number" id="img2" name="img2" min="0" max="10" value="0" />
+      </div>
+      <div>
+        <img src="./img/smile-7795715_1280.png" alt="Sticker Smile" />
+        <label for="img3">conejito:</label>
+        <input type="number" id="img3" name="img3" min="0" max="10" value="0" />
+      </div>
+    </div>
+    <button onclick="verificarPedido()">Pedir Stickers</button>
+    <p id="resultado"></p>
+    <script src="./dist/main.js"></script>
+  </body>
+</html>
+
+
